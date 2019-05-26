@@ -5,7 +5,7 @@ import java.util.Set;
 
 public class TestBucketFilter {
     public static void main(String[] args) throws  InterruptedException{
-        BucketFilter filter = new BucketFilter(1);
+        BucketFilter filter = new BucketFilter(4);
         Set<Thread> threadCollection = new HashSet<Thread>();
 
         for(int i =0; i < 50; i++){
